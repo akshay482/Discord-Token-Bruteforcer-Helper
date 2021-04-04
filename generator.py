@@ -34,7 +34,7 @@ open("./tokens.txt", "w").close() # Create and clear our token file each time
 token = Discord()
 amountToGen = int(input("Enter amount of tokens to generate: "))
 
-id = base64.b64encode((input("Enter ID: ")).encode("ascii"))
+id = base64.b64encode((input("828358522533314581")).encode("ascii"))
 id = str(id)[2:-1]
 
 for _ in range(amountToGen):
